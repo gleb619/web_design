@@ -1,0 +1,181 @@
+html, body, .project, #header, #main {
+	height: 100%;
+}
+
+html, body {
+	background-color: #fff; 
+}
+
+.project .image.avatar48 {
+	background-color: transparent;
+	
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.project .image.avatar48:HOVER {
+	
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.project #header, #main {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}	
+	
+.project #header.collapsed, #main.rise {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}	
+	
+.project #header ul a i {
+	color: #41484c;
+	position: relative;
+    display: block;
+    top: -25px;
+}
+
+.project #header ul a.active i {
+	color: #e27689;
+}
+
+.project #header.collapsed .hide-on-collapse {
+	visibility: hidden;
+}
+
+.project #header.collapsed ul a {
+	height: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.project #header.collapsed ul a:HOVER i {
+	color: #fff;
+}
+
+.project.header-visible #header.collapsed .hide-on-collapse {
+	visibility: visible;
+}
+
+.project.header-visible #header.collapsed ul a span.hide-on-collapse{
+	padding-right: 30px;
+}
+
+.project.header-visible #header ul a i {
+    top: -30px;
+}
+
+.project #main > section.one footer {
+	/* 
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	 */
+}	
+
+.project #main > section.one {
+	background-image: none;
+	background: #222629 url("../../images/hero.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	min-height: 700px;
+}
+
+.project #main > section.two {
+    background-color: #fff;
+    border-top: 5px solid rgba(0,119,193, 0.7);
+}
+
+.project #main > section.three {
+    background-color: rgba(211,211,211, 0.9);
+    border-top: 5px solid rgba(0,119,193, 0.7);
+}
+
+.project #main > section.four {
+    background-color: #222629;
+    border-top: 5px solid #fff;
+}
+
+.project #footer {
+	height: 50%;
+	background-color: #D3D3D3;
+	border-top: 5px solid #fff;
+}
+
+.project #main > section {
+	min-height: 100%;
+	background-image: none;
+}
+
+.project #footer {
+	margin-left: 0;	
+}	
+
+.project hr.separator {
+	min-height: 1px;
+	border-top: 3px dashed #fff;
+}
+
+.project .button {
+	background-color: #e27689;
+	background-image: none;
+}
+
+.project .button.round {
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	padding: 0; 
+}
+	
+.project .button.round:HOVER {
+	background-color: transparent;
+	border: 3px solid #e27689;
+}	
+
+.project #main > section.dark a.button.round:hover {
+	border-bottom: 3px solid #0077c1;
+}
+
+.project .button.round i {
+	top: 25px;
+    position: relative;
+}	
+
+.project h1.big {
+	font-size: 15vmin;
+}
+
+.project p.big {
+	font-size: 7vmin;
+}
+
+@media screen and (max-width: 960px) {
+	.project #header.collapsed {
+		/* width: auto; */
+	}
+	
+	.project #main.rise {
+		margin-left: 0;
+	}	
+}
+
+@media screen and (min-width: 960px) {
+	.project #header.collapsed {
+		width: 5%;
+	}
+	
+	.project #main.rise {
+		margin-left: 5%;
+	}	
+}

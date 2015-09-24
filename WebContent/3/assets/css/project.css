@@ -1,0 +1,56 @@
+#header {
+	/* background-image: url("../../images/background/header.jpg"); */
+	/* background-image: url("../../images/background/header_2.jpg"); */
+	/* background-image: url("../../images/background/header_3.jpg"); */
+	background-image: none;
+}
+
+.circle.logo {
+	border-radius: 100%;
+	border: 5px solid #fff;
+	height: 250px;
+	width: 250px;
+	visibility: hidden;
+}
+
+.circle.logo img {
+    top: 40px;
+    position: relative;
+}
+
+.circle.icons {
+	border-radius: 100%;
+	border: 2px solid rgb(91,91,91);
+	height: 100px;
+	width: 100px;
+	
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle.icons i {
+	position: relative;
+	top: 15%;
+}
+
+.circle.icons:hover {
+	border: 2px solid #fff;
+	background-color: rgb(91,91,91);
+}
+	
+.circle.icons:hover i {
+	color: #fff;
+}	
+
+.map {
+    height: 450px;
+    width: 450px;
+	background: #fff url(http://static-maps.yandex.ru/1.x/?lang=ru-RU&ll=37.618601%2C55.749029&z=16&l=map&size=600,450&pt=37.618601%2C55.749029,pm2dbl) no-repeat center center;
+	border: 5px solid #fff;
+}
+
+.fadeInLeft, .fadeInRight {
+	visibility: hidden;
+}

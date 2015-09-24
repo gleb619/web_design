@@ -1,0 +1,120 @@
+.project header {
+	background-image: url(../img/hero.jpg);
+}
+
+.project .btn-primary {
+	border-color: #0077c1;
+    background-color: #0077c1;
+}
+
+.project .bg-primary {
+	background-color: #0077c1;
+}
+
+.project .text-primary {
+	color: #0077c1;
+}
+
+.project hr {
+	border-color: #0077c1;
+}
+
+.project hr.light {
+    border-color: #fff;
+}
+
+.project a {
+    color: #0077c1;
+}
+
+.project a:hover, 
+.project a:focus {
+	color: #0097dc;
+}
+
+.project a.btn-primary {
+	color: #fff;
+}
+
+.project a.btn-primary:hover, 
+.project a.btn-primary:focus {
+	color: #0097dc;
+	background-color: #fff;
+}
+
+.project .portfolio-box .portfolio-box-caption {
+	background: rgba(0,119,193,.9);
+}
+
+.project .navbar-default .navbar-header .navbar-brand {
+	color: #6dcff6;
+}
+
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
+    color: #0077c1;
+}
+
+.project .navbar-default .nav > li.active>a,
+.project .navbar-default .nav>li.active>a:focus {
+    color: #0077c1!important;
+    background-color: transparent;
+}
+
+.project .map {
+	margin: 0 auto;
+	border-radius: 50%;
+    height: 450px;
+    width: 450px;
+	margin-bottom: 50px;
+	background: #fff url(http://static-maps.yandex.ru/1.x/?lang=ru-RU&ll=37.618601%2C55.749029&z=16&l=map&size=600,450&pt=37.618601%2C55.749029,pm2dbl) no-repeat center center;
+	border: 10px solid #fff;
+}
+
+#contact {
+	background: #fff url("../img/map_background_2.jpg") no-repeat center center fixed;
+	background-size: cover;	
+}
+
+.section-heading-inverted {
+	color: #fff;
+}
+
+.splitted-group a:FIRST-CHILD {
+	border-radius: 25px 0 0 25px; 
+}
+
+.splitted-group a:not(:first-child) {
+	margin-left: -5px; 
+}
+
+.splitted-group a:LAST-CHILD {
+	border-radius: 0 25px 25px 0;
+}
+
+@media(min-width:768px) {
+	.project .navbar-default.affix .navbar-header .navbar-brand {
+        color: #0077c1;
+    }	
+    
+    .project .navbar-default.affix .nav > li>a:hover,
+    .project .navbar-default.affix .nav>li>a:focus:hover {
+        color: #0077c1;
+    }
+    
+    .project .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: rgba(255,255,255, .7);
+    }
+}	
+
+@media(min-width:992px) {
+	
+	#center-info {
+		top: 100px;
+	    left: 80px;
+	    position: relative;
+	}
+		
+}	
+	
